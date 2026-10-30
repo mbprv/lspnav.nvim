@@ -34,7 +34,7 @@ that puts the plugin on the runtimepath.
 
 The GIF at the top of the README is recorded from
 [`data/demo/demo.scene`](data/demo/demo.scene) with
-[nvim-demo](https://github.com/mbfoss/nvim-demo-tool). The scene drives a
+[nvim-demo](https://github.com/<owner>/nvim-demo-tool). The scene drives a
 scripted Neovim session against [`data/demo/sample.c`](data/demo/sample.c), which clangd
 indexes so the symbol tree, references, and call hierarchy all have data.
 
@@ -83,7 +83,7 @@ user-command registration, an LRU cache, throttle, and the
 `textDocument/documentSymbol` helpers (`lspnav.util.lspsymbols`).
 
 The tree primitives were copied from
-[keystone.nvim](https://github.com/mbfoss/keystone.nvim), by the same author.
+[keystone.nvim](https://github.com/<owner>/keystone.nvim), by the same author.
 The two plugins are independent: neither installs the other, and the copies may
 diverge. Keep this copy internally consistent rather than syncing it.
 

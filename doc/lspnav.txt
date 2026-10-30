@@ -26,17 +26,17 @@ document symbols, call hierarchy, and references.
 Neovim >= 0.12:
 
 >lua
-    vim.pack.add({ "https://github.com/mbfoss/lspnav.nvim" })
+    vim.pack.add({ "https://github.com/<owner>/lspnav.nvim" })
 <
 
-Other plugin managers work too; the repository is `mbfoss/lspnav.nvim`.
+Other plugin managers work too; the repository is `<owner>/lspnav.nvim`.
 
 With lazy.nvim, load the plugin at startup so `plugin/lspnav.lua` registers
 `:Lspnav`:
 
 >lua
     {
-      "mbfoss/lspnav.nvim",
+      "<owner>/lspnav.nvim",
       lazy = false,
       opts = {}, -- option overrides
     }

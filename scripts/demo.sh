@@ -20,7 +20,7 @@ else
     demo=$tool/bin/nvim-demo
     if [ ! -x "$demo" ]; then
         mkdir -p "${tool%/*}"
-        git clone --depth 1 https://github.com/mbfoss/nvim-demo-tool "$tool"
+        git clone --depth 1 https://github.com/<owner>/nvim-demo-tool "$tool"
     fi
 fi
 
